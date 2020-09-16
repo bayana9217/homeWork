@@ -1,0 +1,81 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* -------------- */
+
+
+
+
+span{
+   color: rgb(8, 235, 26);
+}
+a{
+   color: rgb(235, 8, 185);
+}
+h2, h3, h4{
+   color: rgb(207, 51, 221);
+}
+
+
+
+.header h1{
+   color: red;
+}
+.navigation {
+}
+.menu {
+}
+.menu__li {
+}
+.menu__link {
+   color: rgb(31, 138, 138);
+}
+.main p{
+   color: rgb(167, 124, 7);
+}
+.block {
+}
+.info {
+}
+.info__li {
+   color: rgb(8, 180, 100);
+}
+.two__block {
+}
+.footer p{
+   color: teal;
+}
+.footer__ul {
+}
+.footer__li {
+}
+.footer__link {
+}
